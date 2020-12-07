@@ -9,7 +9,7 @@ CREATE TABLE covidData
 	cityCode NVARCHAR(12),
 	lat DECIMAL(9,6),
 	lon DECIMAL(9,6),
-    confirmed INT NOT NULL DEFAULT(0),
+        confirmed INT NOT NULL DEFAULT(0),
 	deaths INT NOT NULL DEFAULT(0),
 	recovered INT NOT NULL DEFAULT(0),
 	active INT NOT NULL DEFAULT(0),
